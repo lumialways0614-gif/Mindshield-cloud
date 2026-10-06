@@ -1,0 +1,7 @@
+-r requirements.txt
+
+# Optional local-only OCR components. These are intentionally excluded from
+# Streamlit Cloud's requirements.txt because the model runtime is large.
+rapidocr>=3.9,<4
+onnxruntime>=1.23,<2
+numpy>=1.26,<3
